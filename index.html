@@ -3,69 +3,186 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Navjot | Portfolio</title>
+  <title>Navjot Wadhwa | FP&A & Automation</title>
+  <meta name="description" content="Navjot Wadhwa - FP&A professional building at the intersection of finance, AI, automation, and thoughtful digital work.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
     <nav>
-      <h2>Navjot</h2>
-      <ul>
+      <a href="#" class="nav-logo">NW</a>
+      <ul class="nav-links">
         <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#exploring">Exploring</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
+      <button class="theme-toggle" aria-label="Toggle dark mode">
+        <span class="theme-icon">◐</span>
+      </button>
     </nav>
   </header>
 
   <main>
     <section id="hero">
-      <h1>Hi, I’m Navjot</h1>
-      <p>FP&A professional exploring AI, coding, and entrepreneurship.</p>
-      <a href="#projects">View My Work</a>
+      <div class="hero-content">
+        <h1>Navjot Wadhwa</h1>
+        <p class="positioning">An FP&A professional building at the intersection of finance, AI, automation, and thoughtful digital work.</p>
+        <p class="hero-sub">I work in financial planning and analysis with deep experience in budgeting, forecasting, and process automation. I'm actively learning AI, Python, and building systems that make finance work better.</p>
+        <div class="hero-cta">
+          <a href="#work" class="btn-primary">View Work</a>
+          <a href="#contact" class="btn-secondary">Get in Touch</a>
+        </div>
+      </div>
     </section>
 
     <section id="about">
-      <h2>About Me</h2>
-      <p>
-        I work in financial planning and analysis and I’m building skills in
-        AI, Python, and web development. I’m interested in creating useful,
-        thoughtful digital projects and growing toward entrepreneurship.
-      </p>
-    </section>
-
-    <section id="skills">
-      <h2>Skills</h2>
-      <ul>
-        <li>Financial Planning & Analysis</li>
-        <li>Budgeting and Forecasting</li>
-        <li>Python (Beginner)</li>
-        <li>AI and Prompt Engineering</li>
-        <li>HTML and CSS (Learning)</li>
-      </ul>
-    </section>
-
-    <section id="projects">
-      <h2>Projects</h2>
-      <div>
-        <h3>Personal Portfolio Website</h3>
-        <p>A personal website built to showcase my work, background, and learning journey.</p>
+      <div class="section-content">
+        <h2>About</h2>
+        <div class="about-text">
+          <p>I work in FP&A with strong experience in budgeting, forecasting, variance analysis, reporting, consolidation support, and SG&A cost analysis. I've spent years working with Excel, SAP, OneStream, and Tableau to make financial data clearer and more actionable.</p>
+          <p>What interests me now is how finance, automation, and AI can work together. I'm learning prompt engineering, Python, and agent-based systems. I also care about writing, branding, and digital product thinking—how to communicate complex ideas simply and build things that actually work.</p>
+          <p>I'm not chasing buzzwords. I'm interested in practical applications: better reporting workflows, smarter forecasting, and tools that help finance teams do their best work.</p>
+        </div>
       </div>
-      <div>
-        <h3>Future AI Projects</h3>
-        <p>I’ll add AI, automation, and finance-related projects here as I build them.</p>
+    </section>
+
+    <section id="work">
+      <div class="section-content">
+        <h2>Selected Work</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-header">
+              <h3>FP&A Reporting Automation</h3>
+              <span class="project-type">Process Improvement</span>
+            </div>
+            <p class="project-description">Redesigned monthly reporting workflow to reduce manual data entry and improve accuracy across management reporting packages.</p>
+            <div class="project-details">
+              <p><strong>What I did:</strong> Automated data consolidation, built template standardization, implemented variance analysis workflows.</p>
+              <p><strong>Outcome:</strong> Reduced reporting cycle time by 40% and improved data consistency across business units.</p>
+            </div>
+            <a href="#" class="project-link">Case study coming soon</a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-header">
+              <h3>Forecasting System Enhancement</h3>
+              <span class="project-type">Finance Systems</span>
+            </div>
+            <p class="project-description">Improved forecasting accuracy and process efficiency through system optimization and workflow redesign.</p>
+            <div class="project-details">
+              <p><strong>What I did:</strong> Enhanced OneStream workflows, built driver-based forecasting models, improved variance analysis templates.</p>
+              <p><strong>Outcome:</strong> Increased forecast accuracy and reduced time spent on manual adjustments.</p>
+            </div>
+            <a href="#" class="project-link">Case study coming soon</a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-header">
+              <h3>AI Workflow Experiment</h3>
+              <span class="project-type">AI & Automation</span>
+            </div>
+            <p class="project-description">Exploring how AI agents and prompt engineering can streamline FP&A workflows and analysis.</p>
+            <div class="project-details">
+              <p><strong>What I did:</strong> Built prompt templates for financial analysis, experimented with agent-based data processing, documented learnings.</p>
+              <p><strong>Outcome:</strong> Early-stage project identifying practical AI applications in finance workflows.</p>
+            </div>
+            <a href="#" class="project-link">Case study coming soon</a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-header">
+              <h3>Financial Communication Framework</h3>
+              <span class="project-type">Writing & Strategy</span>
+            </div>
+            <p class="project-description">Developed a framework for communicating financial insights clearly to non-finance stakeholders.</p>
+            <div class="project-details">
+              <p><strong>What I did:</strong> Created templates for executive summaries, built storytelling approaches for data, facilitated workshops.</p>
+              <p><strong>Outcome:</strong> Improved cross-functional understanding of financial performance and drivers.</p>
+            </div>
+            <a href="#" class="project-link">Case study coming soon</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <div class="section-content">
+        <h2>Experience</h2>
+        <div class="experience-list">
+          <div class="experience-item">
+            <div class="experience-header">
+              <h3>Bunge</h3>
+              <span class="experience-role">FP&A</span>
+            </div>
+            <p class="experience-focus">SG&A analysis, reporting, forecasting, consolidation support, and process automation. Worked with SAP, OneStream, Tableau, and Excel to build efficient financial workflows.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="exploring">
+      <div class="section-content">
+        <h2>What I'm Exploring</h2>
+        <div class="exploring-grid">
+          <div class="exploring-item">
+            <h3>AI & Agents</h3>
+            <p>How AI agents can augment FP&A work, from data analysis to reporting automation. Practical applications over hype.</p>
+          </div>
+          <div class="exploring-item">
+            <h3>Finance & Systems</h3>
+            <p>Better ways to structure financial systems, automate repetitive work, and build scalable forecasting processes.</p>
+          </div>
+          <div class="exploring-item">
+            <h3>Automation</h3>
+            <p>Using Python and modern tools to eliminate manual work in finance—reporting, data consolidation, analysis.</p>
+          </div>
+          <div class="exploring-item">
+            <h3>Entrepreneurship</h3>
+            <p>Building digital products and services at the intersection of finance, automation, and clear communication.</p>
+          </div>
+          <div class="exploring-item">
+            <h3>Digital Products</h3>
+            <p>Thinking about how to package financial expertise into useful tools, templates, and resources.</p>
+          </div>
+          <div class="exploring-item">
+            <h3>Writing & Ideas</h3>
+            <p>Writing about finance, automation, and building things worth building. Clear thinking communicated clearly.</p>
+          </div>
+        </div>
       </div>
     </section>
 
     <section id="contact">
-      <h2>Contact</h2>
-      <p>Email: navjotwadhwa.fin@gmail.com</p>
-      <p>GitHub: github.com/joojesh97</p>
+      <div class="section-content">
+        <h2>Contact</h2>
+        <p class="contact-intro">I'm always interested in conversations about finance, automation, AI, or interesting projects.</p>
+        <div class="contact-links">
+          <a href="mailto:navjotwadhwa.fin@gmail.com" class="contact-link">
+            <span class="contact-label">Email</span>
+            <span class="contact-value">navjotwadhwa.fin@gmail.com</span>
+          </a>
+          <a href="https://github.com/joojesh97" target="_blank" rel="noopener" class="contact-link">
+            <span class="contact-label">GitHub</span>
+            <span class="contact-value">github.com/joojesh97</span>
+          </a>
+          <a href="#" class="contact-link">
+            <span class="contact-label">LinkedIn</span>
+            <span class="contact-value">Coming soon</span>
+          </a>
+        </div>
+      </div>
     </section>
   </main>
+
+  <footer>
+    <p>&copy; 2026 Navjot Wadhwa. Built with care.</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
