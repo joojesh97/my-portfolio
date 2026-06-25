@@ -16,8 +16,8 @@
   --border-subtle: #f0efed;
   
   /* Typography */
-  --font-heading: 'Playfair Display', serif;
-  --font-body: 'Inter', sans-serif;
+  --font-heading: 'DM Serif Display', serif;
+  --font-body: 'DM Sans', sans-serif;
   
   /* Spacing - more generous for editorial feel */
   --spacing-xs: 6px;
@@ -59,12 +59,12 @@ html {
 body {
   font-family: var(--font-body);
   font-size: 17px;
-  line-height: 1.65;
+  line-height: 1.7;
   background-color: var(--bg-primary);
   color: var(--text-primary);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  letter-spacing: -0.01em;
+  letter-spacing: 0em;
 }
 
 a {
@@ -161,16 +161,16 @@ main {
   font-family: var(--font-heading);
   font-size: clamp(2.75rem, 6vw, 4.5rem);
   font-weight: 600;
-  line-height: 1.08;
+  line-height: 1.15;
   margin-bottom: var(--spacing-lg);
   color: var(--text-primary);
-  letter-spacing: -0.03em;
+  letter-spacing: -0.02em;
 }
 
 .positioning {
   font-size: 1.15rem;
   color: var(--accent);
-  margin-bottom: var(--spacing-lg);
+  margin-bottom: 1.5rem;
   font-weight: 400;
   letter-spacing: -0.01em;
   line-height: 1.5;
